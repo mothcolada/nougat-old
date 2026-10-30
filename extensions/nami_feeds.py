@@ -779,7 +779,6 @@ class NamiFeeds(commands.Cog):
                 # soups[source["link"]] = self.fetch_source(source)
             except Exception as e:
                 await self.bot.report(s + " " + str(e))
-            await asyncio.sleep(0.1)  # avoid heartbeat blocking?
 
 
     @feeds.before_loop
@@ -857,6 +856,14 @@ class NamiFeeds(commands.Cog):
 
         # get all the messages to send
         messages: list[Message] = self.feed(source)
+        await self.send_messages(source, channel, nsfw_channel, tavern_sfw_channel, messages)
+
+
+        
+        # save new stuff
+        json.dump(SOURCES, open("feed_data.json", "w"), indent=4)
+
+    async def send_messages(self, source, channel, nsfw_channel, tavern_sfw_channel, messages):
         if (len(messages) > 5 and source["name"] != "ask") or len(messages) > 15:  # prevent spam pings if a bug happens that makes it detect 5+ new messages from one source at once
             await self.bot.report("too many messages to send")
             return
@@ -883,11 +890,6 @@ class NamiFeeds(commands.Cog):
                 m = await channel.send(files=message.attachments)
                 if self.bot.is_nougat and channel.is_news():
                     await m.publish()
-
-
-        
-        # save new stuff
-        json.dump(SOURCES, open("feed_data.json", "w"), indent=4)
 
 
 async def setup(bot):

@@ -14,7 +14,6 @@ from dotenv import load_dotenv
 
 import io
 
-# TODO: use database instead of json for nami feeds
 
 NOUGAT_ID = 1425561875885719634
 MOTHCOLADA_ID = 422162909582589963

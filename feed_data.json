@@ -83,9 +83,29 @@
             8416153,
             8416634,
             8416924,
-            8418196
+            8418196,
+            8422065,
+            8422149,
+            8427713,
+            8428390,
+            8431036,
+            8434649,
+            8437702,
+            8439775,
+            8439795,
+            8439806,
+            8442266,
+            8442805,
+            8444789,
+            8447539,
+            8448211,
+            8448320,
+            8451325,
+            8452036,
+            8453509,
+            8453566
         ],
-        "etag": "W/\"04a3441b775be78097b0d7f90a06c0fe\""
+        "etag": "W/\"b3d8c227c6f3f4b03be4be6fdd719c45\""
     },
     "announcements": {
         "name": "announcements",
@@ -107,9 +127,10 @@
             "/posts/images/puppers4.png",
             "/images/announcement-fsm.png",
             "/images/announcement-tcsv1.png",
-            "/music/albums/images/album-art.png"
+            "/music/albums/images/album-art.png",
+            "/images/BETH_Vinyl_StoreFront_740x.png"
         ],
-        "etag": "W/\"6ad3cd03-c72c\""
+        "etag": "W/\"6adfc159-7207\""
     },
     "newsfeed": {
         "name": "newsfeed",
@@ -206,9 +227,10 @@
             "10/08/2026",
             "10/13/2026",
             "10/15/2026",
-            "10/17/2026"
+            "10/17/2026",
+            "10/20/2026"
         ],
-        "etag": "W/\"6ad3cd03-c72c\""
+        "etag": "W/\"6adfc159-7207\""
     },
     "posts": {
         "name": "posts",
@@ -391,9 +413,13 @@
             "10/3/2026, 10:07am",
             "10/7/2026, 12:57pm",
             "10/16/2026, 4:24pm",
-            "10/17/2026, 12:22pm"
+            "10/17/2026, 12:22pm",
+            "10/20/2026, 7:36am",
+            "10/25/2026, 1:11pm",
+            "10/26/2026, 10:13am",
+            "10/26/2026, 2:05pm"
         ],
-        "etag": "W/\"6ad3cb28-22159\""
+        "etag": "W/\"6adfc0a3-22e75\""
     },
     "blog": {
         "name": "blog",
@@ -444,7 +470,7 @@
             "tag:nomnomnami.pika.page,2005:Post/129932",
             "tag:nomnomnami.pika.page,2005:Post/130605"
         ],
-        "etag": "W/\"5c229fc57a8d42877b4958d9ea2a0905\""
+        "etag": "W/\"83b048de20c539bd4659546f1acc7100\""
     },
     "ask": {
         "name": "ask",
@@ -932,7 +958,10 @@
             "https://status.cafe/users/nomnomnami/275756",
             "https://status.cafe/users/nomnomnami/276391",
             "https://status.cafe/users/nomnomnami/276655",
-            "https://status.cafe/users/nomnomnami/278957"
+            "https://status.cafe/users/nomnomnami/278957",
+            "https://status.cafe/users/nomnomnami/282912",
+            "https://status.cafe/users/nomnomnami/283114",
+            "https://status.cafe/users/nomnomnami/283953"
         ]
     },
     "neocities": {
@@ -991,7 +1020,11 @@
             "https://neocities.org/site/nomnomnami?event_id=7746651",
             "https://neocities.org/site/nomnomnami?event_id=7752842",
             "https://neocities.org/site/nomnomnami?event_id=7763673",
-            "https://neocities.org/site/nomnomnami?event_id=7771147"
+            "https://neocities.org/site/nomnomnami?event_id=7771147",
+            "https://neocities.org/site/nomnomnami?event_id=7790714",
+            "https://neocities.org/site/nomnomnami?event_id=7796829",
+            "https://neocities.org/site/nomnomnami?event_id=7821300",
+            "https://neocities.org/site/nomnomnami?event_id=7827428"
         ]
     },
     "trick": {
@@ -1037,7 +1070,7 @@
             "tag:trick.pika.page,2005:Post/112727",
             "tag:trick.pika.page,2005:Post/119139"
         ],
-        "etag": "W/\"da3f0e909a40813f6c43e91e5b14a9cc\""
+        "etag": "W/\"1b7bd331024f5e22c0283caedc0356d9\""
     },
     "apoc": {
         "name": "apoc",
@@ -1084,7 +1117,10 @@
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3089195/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3089196/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3089197/",
-            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3089200/"
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3089200/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3111301/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3124384/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3125664/"
         ]
     },
     "tcs": {
@@ -1128,7 +1164,9 @@
             "https://tcs.thecomicseries.com/comics/pl/3084011/",
             "https://tcs.thecomicseries.com/comics/pl/3092858/",
             "https://tcs.thecomicseries.com/comics/pl/3096845/",
-            "https://tcs.thecomicseries.com/comics/pl/3108606/"
+            "https://tcs.thecomicseries.com/comics/pl/3108606/",
+            "https://tcs.thecomicseries.com/comics/pl/3112567/",
+            "https://tcs.thecomicseries.com/comics/pl/3119055/"
         ]
     },
     "youtube": {
@@ -1174,7 +1212,8 @@
             "yt:video:f0R_sXWDmkU",
             "yt:video:OAhkYu9yJGc",
             "yt:video:EGcDQaUa0AI",
-            "yt:video:QskiKk0ySgg"
+            "yt:video:QskiKk0ySgg",
+            "yt:video:H0SDlOuqZH8"
         ]
     },
     "site_updates": {
@@ -1249,9 +1288,11 @@
             "10/12/2026added a dedicated page for [NomnomRadio](https://nomnomnami.com/radio.html)",
             "10/13/2026made thumbnails for everything in the [NWT doodle comic gallery](https://nomnomnami.com/comics/nwt/), i will be updating the other galleries at some point too",
             "10/15/2026updating the css for my games/music/comics release archive pages today~",
-            "10/16/2026put up a page for my new album, [ruminations](https://nomnomnami.com/music/albums/ruminations.html) (haven't made a proper announcement yet but whatever it's my site i do what i want)"
+            "10/16/2026put up a page for my new album, [ruminations](https://nomnomnami.com/music/albums/ruminations.html) (haven't made a proper announcement yet but whatever it's my site i do what i want)",
+            "10/25/2026FINALLY updated my [news archive](https://nomnomnami.com/news/) for this year, but it's just text and no pics yet...",
+            "10/26/2026made a [WWT devlog](https://nomnomnami.com/posts/senbei.html) to match the timber one i made during NWT's development."
         ],
-        "etag": "W/\"6ad3cd03-c72c\""
+        "etag": "W/\"6adfc159-7207\""
     },
     "post_status": {
         "name": "post_status",
@@ -1275,9 +1316,10 @@
             "8/15/2026**working on:** website\n**listening to:** [\u30c7\u30d3\u30c3\u30c8\u30d3\u30c3\u30c8](https://www.youtube.com/watch?v=7O9PFfabVkk)\n**the vibe:** uhh i have a cold\n**playing:** nothing atm\n",
             "9/13/2026**working on:** website\n**listening to:** [\u30c7\u30d3\u30c3\u30c8\u30d3\u30c3\u30c8](https://www.youtube.com/watch?v=7O9PFfabVkk)\n**the vibe:** i got over my cold! now im deciding what project to tackle next...\n**playing:** nothing atm\n",
             "9/20/2026**working on:** week with timber (always!!!)\n**listening to:** [\u30c7\u30d3\u30c3\u30c8\u30d3\u30c3\u30c8](https://www.youtube.com/watch?v=7O9PFfabVkk)\n**the vibe:** happy!\n**playing:** nothing atm\n",
-            "10/16/2026**working on:** comics\n**listening to:** [\u3046\u305f\u305f\u306d\u5fc3\u7642\u5185\u79d1](https://youtu.be/-6NfPHeWxI4?si=CXh0HBfdVMoviFa2)\n**the vibe:** i have not gotten done any of the things i was suppposed to!!!!!!!!!!\n**playing:** disgaea hour of darkness on ps2\n"
+            "10/16/2026**working on:** comics\n**listening to:** [\u3046\u305f\u305f\u306d\u5fc3\u7642\u5185\u79d1](https://youtu.be/-6NfPHeWxI4?si=CXh0HBfdVMoviFa2)\n**the vibe:** i have not gotten done any of the things i was suppposed to!!!!!!!!!!\n**playing:** disgaea hour of darkness on ps2\n",
+            "10/26/2026**working on:** website and comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** sad about pillowfort!!!\n**playing:** just finished paranormasight: the mermaid's curse\n"
         ],
-        "etag": "W/\"6ad3cb28-22159\""
+        "etag": "W/\"6adfc0a3-22e75\""
     },
     "patreon": {
         "name": "patreon",
@@ -1330,7 +1372,8 @@
             "171616501",
             "171718185",
             "172061953",
-            "172652901"
+            "172652901",
+            "173591803"
         ]
     },
     "nsfw_patreon": {
@@ -1362,7 +1405,9 @@
             "147572483",
             "158865512",
             "161864749",
-            "165395282"
+            "165395282",
+            "172953732",
+            "172954485"
         ]
     }
 }
