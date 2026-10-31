@@ -103,9 +103,11 @@
             8451325,
             8452036,
             8453509,
-            8453566
+            8453566,
+            8457851,
+            8458092
         ],
-        "etag": "W/\"b3d8c227c6f3f4b03be4be6fdd719c45\""
+        "etag": "W/\"7b13eae6dbc590e7eedba133454bfd36\""
     },
     "announcements": {
         "name": "announcements",
@@ -470,7 +472,7 @@
             "tag:nomnomnami.pika.page,2005:Post/129932",
             "tag:nomnomnami.pika.page,2005:Post/130605"
         ],
-        "etag": "W/\"83b048de20c539bd4659546f1acc7100\""
+        "etag": "W/\"4bc5a479aabcaea0cea1a0f16338ec79\""
     },
     "ask": {
         "name": "ask",
@@ -961,7 +963,8 @@
             "https://status.cafe/users/nomnomnami/278957",
             "https://status.cafe/users/nomnomnami/282912",
             "https://status.cafe/users/nomnomnami/283114",
-            "https://status.cafe/users/nomnomnami/283953"
+            "https://status.cafe/users/nomnomnami/283953",
+            "https://status.cafe/users/nomnomnami/285139"
         ]
     },
     "neocities": {
@@ -1070,7 +1073,7 @@
             "tag:trick.pika.page,2005:Post/112727",
             "tag:trick.pika.page,2005:Post/119139"
         ],
-        "etag": "W/\"1b7bd331024f5e22c0283caedc0356d9\""
+        "etag": "W/\"f6fecfd1cacbcc7a5c92985c83db7988\""
     },
     "apoc": {
         "name": "apoc",
@@ -1120,7 +1123,8 @@
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3089200/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3111301/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3124384/",
-            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3125664/"
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3125664/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3127442/"
         ]
     },
     "tcs": {
@@ -1166,7 +1170,8 @@
             "https://tcs.thecomicseries.com/comics/pl/3096845/",
             "https://tcs.thecomicseries.com/comics/pl/3108606/",
             "https://tcs.thecomicseries.com/comics/pl/3112567/",
-            "https://tcs.thecomicseries.com/comics/pl/3119055/"
+            "https://tcs.thecomicseries.com/comics/pl/3119055/",
+            "https://tcs.thecomicseries.com/comics/pl/3128608/"
         ]
     },
     "youtube": {
