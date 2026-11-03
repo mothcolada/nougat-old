@@ -1,18 +1,14 @@
 import asyncio
 import datetime
 import os
-import pathlib
 import pkgutil
 from functools import cached_property
 import logging
 
 import aiohttp
-import asqlite
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-
-import io
 
 
 NOUGAT_ID = 1425561875885719634
@@ -35,8 +31,6 @@ TAVERN_ROLE_TARGETS = {  # every possible role ping and its respective role in N
     "<@&1521632400453402738>": "<@&1537115998426235059>"   # Nami Asks
 }
 
-DATABASE_PATH = pathlib.Path(__file__).parent / "database.db"
-
 INTENTS = discord.Intents.default()
 INTENTS.message_content = True
 
@@ -53,14 +47,10 @@ class Nougat(commands.Bot):
         self,
         command_prefix,
         session: aiohttp.ClientSession,
-        conn: asqlite.ProxiedConnection,
-        cur: asqlite.Cursor,
         **options,
     ) -> None:
         super().__init__(command_prefix, **options)
         self.session = session
-        self.conn = conn
-        self.cur = cur
         self.STARTED_AT = discord.utils.utcnow()
 
         self.log_webhook = discord.Webhook.from_url(os.environ["WEBHOOK_URL"], session=session)
@@ -73,9 +63,6 @@ class Nougat(commands.Bot):
 
 
     async def on_ready(self):
-        # await self.cur.execute('''CREATE TABLE sfsdf
-        #                             (date text, trans text, symbol text, qty real, price real)''')
-        # await self.conn.commit()
 
         await self.log("good morning world")
         # channel = self.get_channel(1074754885070897202)  # 1537117062416302150
@@ -119,8 +106,8 @@ class Nougat(commands.Bot):
         # refresh image url of embed
         if emoji.name in "🔄🔃🔁":
             try:
-                await message.remove_reaction(emoji, user)
-                await message.edit(content=message.content, embeds=message.embeds)
+                # await message.remove_reaction(emoji, user)
+                await message.edit(content=message.content, embeds=message.embeds, attachments=message.attachments)
             except Exception as e:
                 await self.report("refresh")
 
@@ -165,13 +152,8 @@ async def main():
 
     async with (
         aiohttp.ClientSession() as session,
-        asqlite.create_pool(str(DATABASE_PATH)) as db_pool,
-        db_pool.acquire() as conn,
-        conn.cursor() as cur,
         Nougat(
             command_prefix=commands.when_mentioned,
-            conn=conn,
-            cur=cur,
             session=session,
             intents=INTENTS,
         ) as bot,

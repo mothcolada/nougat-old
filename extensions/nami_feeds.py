@@ -7,7 +7,6 @@ import html
 import io
 import json
 import lxml  # do not remove
-import asqlite
 from urllib.parse import urljoin
 import os
 from dotenv import load_dotenv
@@ -768,15 +767,14 @@ class NamiFeeds(commands.Cog):
         self.feeds.cancel()
 
 
-    @tasks.loop(seconds=15.0)
+    @tasks.loop(seconds=20.0)
     async def feeds(self):
         # soups = {}
 
-        for s in ["apoc", "tcs", "ask", "youtube", "pillowfort", "neocities", "patreon", "nsfw_patreon", "announcements", "post_status", "posts", "newsfeed", "site_updates", "status_cafe", "blog", "trick"]:
+        for s in ["apoc", "tcs", "ask", "youtube", "pillowfort", "patreon", "nsfw_patreon", "announcements", "post_status", "posts", "newsfeed", "site_updates", "status_cafe", "blog", "trick", "neocities"]:
             try:
                 source: dict = SOURCES[s]
                 await self.check(source)
-                # soups[source["link"]] = self.fetch_source(source)
             except Exception as e:
                 await self.bot.report(s + " " + str(e))
 
@@ -858,14 +856,12 @@ class NamiFeeds(commands.Cog):
         messages: list[Message] = self.feed(source)
         await self.send_messages(source, channel, nsfw_channel, tavern_sfw_channel, messages)
 
-
-        
         # save new stuff
         json.dump(SOURCES, open("feed_data.json", "w"), indent=4)
 
     async def send_messages(self, source, channel, nsfw_channel, tavern_sfw_channel, messages):
         if (len(messages) > 5 and source["name"] != "ask") or len(messages) > 15:  # prevent spam pings if a bug happens that makes it detect 5+ new messages from one source at once
-            await self.bot.report("too many messages to send")
+            await self.bot.report(f"{source['name']}: too many messages to send")
             return
 
         for message in messages:
