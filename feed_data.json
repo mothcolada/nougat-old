@@ -32,9 +32,18 @@
             8461643,
             8464043,
             8464236,
-            8466999
+            8466999,
+            8476225,
+            8477901,
+            8477982,
+            8482402,
+            8482704,
+            8485193,
+            8486843,
+            8489905,
+            8490833
         ],
-        "etag": "W/\"c2e9e4714bc58b0223acd73376b8beb4\""
+        "etag": "W/\"d73ec84a0a34d7c73ba4c9e6640a2df8\""
     },
     "announcements": {
         "name": "announcements",
@@ -55,7 +64,7 @@
         "saved_ids": [
             "/images/BETH_Vinyl_StoreFront_740x.png"
         ],
-        "etag": "W/\"6ae9545b-72da\""
+        "etag": "W/\"6aebcdb0-73c2\""
     },
     "newsfeed": {
         "name": "newsfeed",
@@ -88,7 +97,7 @@
             "10/20/2026",
             "11/2/2026"
         ],
-        "etag": "W/\"6ae9545b-72da\""
+        "etag": "W/\"6aebcdb0-73c2\""
     },
     "posts": {
         "name": "posts",
@@ -276,9 +285,10 @@
             "10/25/2026, 1:11pm",
             "10/26/2026, 10:13am",
             "10/26/2026, 2:05pm",
-            "10/31/2026, 8:31am"
+            "10/31/2026, 8:31am",
+            "11/6/2026, 9:43am"
         ],
-        "etag": "W/\"6ae9fa01-23719\""
+        "etag": "W/\"6aee11e0-23969\""
     },
     "blog": {
         "name": "blog",
@@ -324,7 +334,7 @@
             "tag:nomnomnami.pika.page,2005:Post/129932",
             "tag:nomnomnami.pika.page,2005:Post/130605"
         ],
-        "etag": "W/\"4a8cb6a106ba16a3703b4ea8f94827d5\""
+        "etag": "W/\"35843b93a596684bb19f26ff251e958e\""
     },
     "ask": {
         "name": "ask",
@@ -413,7 +423,9 @@
             "https://neocities.org/site/nomnomnami?event_id=7821300",
             "https://neocities.org/site/nomnomnami?event_id=7827428",
             "https://neocities.org/site/nomnomnami?event_id=7855233",
-            "https://neocities.org/site/nomnomnami?event_id=7870667"
+            "https://neocities.org/site/nomnomnami?event_id=7870667",
+            "https://neocities.org/site/nomnomnami?event_id=7882224",
+            "https://neocities.org/site/nomnomnami?event_id=7892442"
         ]
     },
     "trick": {
@@ -460,7 +472,7 @@
             "tag:trick.pika.page,2005:Post/119139",
             "tag:trick.pika.page,2005:Post/135263"
         ],
-        "etag": "W/\"f7483e263217be4862b27e430bd200cd\""
+        "etag": "W/\"2bd5a572782555e5697b9f173130c430\""
     },
     "apoc": {
         "name": "apoc",
@@ -495,7 +507,9 @@
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3129869/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3129882/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3133812/",
-            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3134874/"
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3134874/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3138979/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143023/"
         ]
     },
     "tcs": {
@@ -530,7 +544,9 @@
             "https://tcs.thecomicseries.com/comics/pl/3112567/",
             "https://tcs.thecomicseries.com/comics/pl/3119055/",
             "https://tcs.thecomicseries.com/comics/pl/3128608/",
-            "https://tcs.thecomicseries.com/comics/pl/3135579/"
+            "https://tcs.thecomicseries.com/comics/pl/3135579/",
+            "https://tcs.thecomicseries.com/comics/pl/3142788/",
+            "https://tcs.thecomicseries.com/comics/pl/3146518/"
         ]
     },
     "youtube": {
@@ -598,9 +614,10 @@
             "10/15/2026updating the css for my games/music/comics release archive pages today~",
             "10/16/2026put up a page for my new album, [ruminations](https://nomnomnami.com/music/albums/ruminations.html) (haven't made a proper announcement yet but whatever it's my site i do what i want)",
             "10/25/2026FINALLY updated my [news archive](https://nomnomnami.com/news/) for this year, but it's just text and no pics yet...",
-            "10/26/2026made a [WWT devlog](https://nomnomnami.com/posts/senbei.html) to match the timber one i made during NWT's development."
+            "10/26/2026made a [WWT devlog](https://nomnomnami.com/posts/senbei.html) to match the timber one i made during NWT's development.",
+            "11/4/2026finally sat down and wrote up an [AI policy](https://nomnomnami.com/ai-policy.html)--pretty much all the ways i avoid using it and the few places i cannot escape"
         ],
-        "etag": "W/\"6ae9545b-72da\""
+        "etag": "W/\"6aebcdb0-73c2\""
     },
     "post_status": {
         "name": "post_status",
@@ -620,9 +637,10 @@
             "footer_icon": null
         },
         "saved_ids": [
-            "10/26/2026**working on:** website and comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** sad about pillowfort!!!\n**playing:** just finished paranormasight: the mermaid's curse\n"
+            "10/26/2026**working on:** website and comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** sad about pillowfort!!!\n**playing:** just finished paranormasight: the mermaid's curse\n",
+            "11/6/2026**working on:** comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** but i don't WANNA go on vacation\n**playing:** village in the shade\n"
         ],
-        "etag": "W/\"6ae9fa01-23719\""
+        "etag": "W/\"6aee11e0-23969\""
     },
     "patreon": {
         "name": "patreon",

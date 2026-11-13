@@ -65,18 +65,9 @@ class Nougat(commands.Bot):
     async def on_ready(self):
 
         await self.log("good morning world")
-        # channel = self.get_channel(1074754885070897202)  # 1537117062416302150
+        # channel = self.get_channel(1521632401585864731)  # 1537117062416302150
         # if isinstance(channel, discord.TextChannel):
-        #     embed = discord.Embed(description="i can't believe i'm actually posting this. the timbei blowjob comic. enjoy", color=8594767, timestamp=datetime.datetime.now())
-        #     embed.set_author(name="nomnomnami", url="", icon_url="https://img3.pillowfort.social/avatars/0b440e5e9a0095678d00.jpeg")
-        #     embed.set_footer(text="penisfort  •  #timbei  •  #surely it'll actually drop soon  •  #i did this instead of my homework due in less than an hour  •  #i hope none of the mods ping the whole server before reading it",
-        #                      icon_url="https://www.pillowfort.social/assets/favicon/Favicon%202%20-%20Dark%20Blue@3x-515c35a56c5b49119a9a697b23f9c70a5ac5740d610fab316545ff74f15be3f2.png")
-        #     await channel.send(embed=embed)
-        #     f = open("image-1.png.png", "rb").read()
-        #     discord_file = discord.File(io.BytesIO(f),
-        #                     filename = "lol.png",
-        #                     spoiler  = True)
-        #     await channel.send(file=discord_file)
+        #     await channel.send("huh wha")
         # await self.close()
         # exit()
 
