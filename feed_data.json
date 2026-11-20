@@ -41,9 +41,11 @@
             8485193,
             8486843,
             8489905,
-            8490833
+            8490833,
+            8496827,
+            8501053
         ],
-        "etag": "W/\"d73ec84a0a34d7c73ba4c9e6640a2df8\""
+        "etag": "W/\"b29bdc863a2712307c63fcf402ac3025\""
     },
     "announcements": {
         "name": "announcements",
@@ -64,7 +66,7 @@
         "saved_ids": [
             "/images/BETH_Vinyl_StoreFront_740x.png"
         ],
-        "etag": "W/\"6aebcdb0-73c2\""
+        "etag": "W/\"6afa3cdd-74a2\""
     },
     "newsfeed": {
         "name": "newsfeed",
@@ -95,9 +97,10 @@
             "10/15/2026",
             "10/17/2026",
             "10/20/2026",
-            "11/2/2026"
+            "11/2/2026",
+            "11/15/2026"
         ],
-        "etag": "W/\"6aebcdb0-73c2\""
+        "etag": "W/\"6afa3cdd-74a2\""
     },
     "posts": {
         "name": "posts",
@@ -286,9 +289,10 @@
             "10/26/2026, 10:13am",
             "10/26/2026, 2:05pm",
             "10/31/2026, 8:31am",
-            "11/6/2026, 9:43am"
+            "11/6/2026, 9:43am",
+            "11/15/2026, 3:42pm"
         ],
-        "etag": "W/\"6aee11e0-23969\""
+        "etag": "W/\"6afa437b-23ad2\""
     },
     "blog": {
         "name": "blog",
@@ -334,7 +338,7 @@
             "tag:nomnomnami.pika.page,2005:Post/129932",
             "tag:nomnomnami.pika.page,2005:Post/130605"
         ],
-        "etag": "W/\"35843b93a596684bb19f26ff251e958e\""
+        "etag": "W/\"b4be6eec7abdca620888413993a0034a\""
     },
     "ask": {
         "name": "ask",
@@ -393,7 +397,8 @@
             "https://status.cafe/users/nomnomnami/283953",
             "https://status.cafe/users/nomnomnami/285139",
             "https://status.cafe/users/nomnomnami/285675",
-            "https://status.cafe/users/nomnomnami/286159"
+            "https://status.cafe/users/nomnomnami/286159",
+            "https://status.cafe/users/nomnomnami/289142"
         ]
     },
     "neocities": {
@@ -425,7 +430,8 @@
             "https://neocities.org/site/nomnomnami?event_id=7855233",
             "https://neocities.org/site/nomnomnami?event_id=7870667",
             "https://neocities.org/site/nomnomnami?event_id=7882224",
-            "https://neocities.org/site/nomnomnami?event_id=7892442"
+            "https://neocities.org/site/nomnomnami?event_id=7892442",
+            "https://neocities.org/site/nomnomnami?event_id=7946720"
         ]
     },
     "trick": {
@@ -472,7 +478,7 @@
             "tag:trick.pika.page,2005:Post/119139",
             "tag:trick.pika.page,2005:Post/135263"
         ],
-        "etag": "W/\"2bd5a572782555e5697b9f173130c430\""
+        "etag": "W/\"3bc6d7334caaf7296d060923fc8f9a37\""
     },
     "apoc": {
         "name": "apoc",
@@ -509,7 +515,8 @@
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3133812/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3134874/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3138979/",
-            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143023/"
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143023/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143026/"
         ]
     },
     "tcs": {
@@ -546,7 +553,8 @@
             "https://tcs.thecomicseries.com/comics/pl/3128608/",
             "https://tcs.thecomicseries.com/comics/pl/3135579/",
             "https://tcs.thecomicseries.com/comics/pl/3142788/",
-            "https://tcs.thecomicseries.com/comics/pl/3146518/"
+            "https://tcs.thecomicseries.com/comics/pl/3146518/",
+            "https://tcs.thecomicseries.com/comics/pl/3154772/"
         ]
     },
     "youtube": {
@@ -617,7 +625,7 @@
             "10/26/2026made a [WWT devlog](https://nomnomnami.com/posts/senbei.html) to match the timber one i made during NWT's development.",
             "11/4/2026finally sat down and wrote up an [AI policy](https://nomnomnami.com/ai-policy.html)--pretty much all the ways i avoid using it and the few places i cannot escape"
         ],
-        "etag": "W/\"6aebcdb0-73c2\""
+        "etag": "W/\"6afa3cdd-74a2\""
     },
     "post_status": {
         "name": "post_status",
@@ -638,9 +646,10 @@
         },
         "saved_ids": [
             "10/26/2026**working on:** website and comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** sad about pillowfort!!!\n**playing:** just finished paranormasight: the mermaid's curse\n",
-            "11/6/2026**working on:** comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** but i don't WANNA go on vacation\n**playing:** village in the shade\n"
+            "11/6/2026**working on:** comics\n**listening to:** [\u300eHerencia (Heritage)\u300f\ud80c\udd43 ft. Otomachi Una](https://youtu.be/BSgSbhw7okQ?si=B-4g6NgoH1KHMdFF)\n**the vibe:** but i don't WANNA go on vacation\n**playing:** village in the shade\n",
+            "11/15/2026**working on:** relaxing\n**listening to:** [village in the shade main theme](https://www.youtube.com/watch?v=i6XBzz_xgKI)\n**the vibe:** vacation mode\n**playing:** village in the shade\n"
         ],
-        "etag": "W/\"6aee11e0-23969\""
+        "etag": "W/\"6afa437b-23ad2\""
     },
     "patreon": {
         "name": "patreon",
@@ -679,7 +688,8 @@
             "172061953",
             "172652901",
             "173591803",
-            "174105878"
+            "174105878",
+            "175188450"
         ]
     },
     "nsfw_patreon": {
@@ -715,5 +725,88 @@
             "172953732",
             "172954485"
         ]
+    },
+    "forums": {
+        "name": "forums",
+        "link": "https://forums.lonelywolftre.at/syndication.php?limit=20",
+        "headers": {
+            "Accept": "text/xml; charset=\"UTF-8\""
+        },
+        "channel": 1569180684742828032,
+        "role": null,
+        "embed": {
+            "url": "https://forums.lonelywolftre.at",
+            "author": null,
+            "author_url": null,
+            "author_icon": null,
+            "footer": "namiverse forums",
+            "color": 13684955,
+            "timestamp_format": "%a, %d %b %Y %X %z",
+            "footer_icon": null
+        },
+        "saved_ids": [
+            "https://forums.lonelywolftre.at/showthread.php?tid=51",
+            "https://forums.lonelywolftre.at/showthread.php?tid=52",
+            "https://forums.lonelywolftre.at/showthread.php?tid=53",
+            "https://forums.lonelywolftre.at/showthread.php?tid=54",
+            "https://forums.lonelywolftre.at/showthread.php?tid=55",
+            "https://forums.lonelywolftre.at/showthread.php?tid=56",
+            "https://forums.lonelywolftre.at/showthread.php?tid=57",
+            "https://forums.lonelywolftre.at/showthread.php?tid=58",
+            "https://forums.lonelywolftre.at/showthread.php?tid=59",
+            "https://forums.lonelywolftre.at/showthread.php?tid=60",
+            "https://forums.lonelywolftre.at/showthread.php?tid=61",
+            "https://forums.lonelywolftre.at/showthread.php?tid=62",
+            "https://forums.lonelywolftre.at/showthread.php?tid=63",
+            "https://forums.lonelywolftre.at/showthread.php?tid=65",
+            "https://forums.lonelywolftre.at/showthread.php?tid=66",
+            "https://forums.lonelywolftre.at/showthread.php?tid=67",
+            "https://forums.lonelywolftre.at/showthread.php?tid=68",
+            "https://forums.lonelywolftre.at/showthread.php?tid=69",
+            "https://forums.lonelywolftre.at/showthread.php?tid=71",
+            "https://forums.lonelywolftre.at/showthread.php?tid=70"
+        ],
+        "etag": ""
+    },
+    "wikitreatia": {
+        "name": "wikitreatia",
+        "link": "https://wiki.lonelywolftre.at/mediawiki/api.php?hidebots=1&urlversion=1&days=14&limit=20&action=feedrecentchanges&feedformat=atom",
+        "headers": {
+            "Accept": "application/xml; charset=UTF-8"
+        },
+        "channel": 1562557004839649300,
+        "role": null,
+        "embed": {
+            "url": "https://wiki.lonelywolftre.at",
+            "author": null,
+            "author_url": null,
+            "author_icon": null,
+            "footer": "wikitreatia",
+            "color": 1053720,
+            "timestamp_format": "%Y-%m-%dT%XZ%z",
+            "footer_icon": null
+        },
+        "saved_ids": [
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice/common.css&diff=710&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Spoilers&diff=711&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice/styles.css&diff=712&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Spoilers&diff=713&oldid=711",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=File:LWT_dialogue_border.png&diff=714&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice/style.css&diff=716&oldid=712",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice&diff=717&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice/style.css&diff=718&oldid=716",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Spoilers&diff=719&oldid=713",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Stub&diff=720&oldid=704",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice&diff=721&oldid=717",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=File:Moxie_face34-5.png&diff=722&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:NSFW&diff=723&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Treat&diff=724&oldid=694",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice/style.css&diff=725&oldid=718",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Notice&diff=726&oldid=721",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Night_with_Timber&diff=727&oldid=697",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=File:Cover_CS.png&diff=728&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=User:Misew&diff=729&oldid=0"
+        ],
+        "etag": ""
     }
 }

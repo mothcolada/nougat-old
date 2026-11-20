@@ -129,6 +129,7 @@ class Message():
         title: (str | None) = None,
         url: (str | None) = None,
         author: (str | None) = None,
+        author_url: (str | None) = None,
         author_icon: (str | None) = None,
         images = [],
         thumbnail: (str | None) = None,
@@ -145,6 +146,7 @@ class Message():
         self.title       = title
         self.url         = url    or self.source["embed"]["url"]
         self.author      = author or self.source["embed"]["author"]
+        self.author_url  = author_url or self.source["embed"]["author_url"]
         self.author_icon = author_icon or self.source["embed"]["author_icon"]
         self.footer      = self.source["embed"]["footer"]
         self.color       = self.source["embed"]["color"]
@@ -164,8 +166,6 @@ class Message():
             self.color = 0xa15c3e
             self.footer_icon = "https://nomnomnami.com/ask/images/slate.png"
 
-
-        self.author_url  = self.source["embed"]["author_url"]
         if self.author_url == "[url]":
             self.author_url = self.url
 
@@ -286,12 +286,14 @@ def paragraph(p) -> str:  # TODO: totally rewrite this?? for tag in tag in <p> t
 
 
 def html_to_discord(html: Tag):  # TODO: rewrite this too
-    global censor_nsfw  # ughhhhhh
+    global censor_nsfw  # ughhhhhh global variable
     text = ""
     images = []
     for child in html.children:
         if not isinstance(child, Tag):
             continue
+        if child.name in ["html", "body"]:
+            return html_to_discord(child)
         if child.name == "p":
             text += "\n\n" + paragraph(child)
             for grandchild in child.descendants:
@@ -735,6 +737,56 @@ def parse_patreon(posts_json):
     return messages
 
 
+def parse_forums(soup):
+    posts = soup.find_all("item")
+
+    un_cdata = lambda s : s.replace("<![CDATA[", "").replace("]]>", "").strip()
+
+    messages = []
+    for post in posts:
+        creator_element = BeautifulSoup(un_cdata(post.find("dc:creator").string), "lxml").find("a")
+        if not creator_element:
+            raise Exception("no creator for forums or something")
+        
+        href = creator_element["href"]
+        if not isinstance(href, str):
+            raise Exception("no creator for forums or something")
+
+        # description = BeautifulSoup(un_cdata(post.find("description").string), "lxml")
+
+        message = Message("forums",
+                          id = post.find("guid").string,
+                          title = un_cdata(post.find("title").string),
+                          url = post.find("link").string,
+                          # description = html_to_discord(description)["text"],
+                          author = creator_element.string,
+                          author_url = href,
+                          timestamp = post.find("pubDate").string)
+        messages.append(message)
+    return messages
+
+
+def parse_wiki(soup):
+    posts = soup.find_all("entry")
+
+    messages = []
+    for post in posts:
+        # description = post.find("summary").string
+        # if len(description) > 200:
+        #     description = description[:200] + "..."
+
+        message = Message("wikitreatia",
+                          id = post.find("id").string,
+                          title = post.find("title").string,
+                          url = post.find("link")["href"],
+                          author = post.find("name").string,
+                          author_url = "https://wiki.lonelywolftre.at/wiki/User:" + post.find("name").string,
+                          # description = description,
+                          timestamp = post.find("updated").string + "+0000")
+        messages.append(message)
+
+    return messages
+
 
 funcs = {
     "announcements":    parse_announcements,
@@ -752,7 +804,9 @@ funcs = {
     "youtube":          parse_youtube,
     "pillowfort":       parse_pillowfort,
     "patreon":          parse_patreon,
-    "nsfw_patreon":     parse_patreon
+    "nsfw_patreon":     parse_patreon,
+    "forums":           parse_forums,
+    "wikitreatia":      parse_wiki
 }
 
 
@@ -771,12 +825,13 @@ class NamiFeeds(commands.Cog):
     async def feeds(self):
         # soups = {}
 
-        for s in ["apoc", "tcs", "ask", "youtube", "pillowfort", "patreon", "nsfw_patreon", "announcements", "post_status", "posts", "newsfeed", "site_updates", "status_cafe", "blog", "trick", "neocities"]:
-            try:
-                source: dict = SOURCES[s]
-                await self.check(source)
-            except Exception as e:
-                await self.bot.report(s + " " + str(e))
+        for s in ["forums", "wikitreatia", "apoc", "tcs", "ask", "youtube", "pillowfort", "patreon", "nsfw_patreon", "announcements",
+                  "post_status", "posts", "newsfeed", "site_updates", "status_cafe", "blog", "trick", "neocities"]:
+            #try:
+            source: dict = SOURCES[s]
+            await self.check(source)
+            # except Exception as e:
+            #     await self.bot.report(s + " " + str(e))
 
 
     @feeds.before_loop
@@ -874,7 +929,7 @@ class NamiFeeds(commands.Cog):
                 m = await nsfw_channel.send(content, embed=message.get_embed())  # type: ignore
             else:
                 m = await channel.send(content, embed=message.get_embed())  # type: ignore
-                if "patreon" not in message.footer:
+                if message.footer not in ["patreon", "nsfw patreon", "namiverse forums", "wikitreatia"]:
                     await tavern_sfw_channel.send(content, embed=message.get_embed())  # type: ignore
                 if len(message.attachments) > 0:
                     await tavern_sfw_channel.send(files=message.attachments)
