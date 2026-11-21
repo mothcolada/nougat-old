@@ -827,11 +827,11 @@ class NamiFeeds(commands.Cog):
 
         for s in ["forums", "wikitreatia", "apoc", "tcs", "ask", "youtube", "pillowfort", "patreon", "nsfw_patreon", "announcements",
                   "post_status", "posts", "newsfeed", "site_updates", "status_cafe", "blog", "trick", "neocities"]:
-            #try:
-            source: dict = SOURCES[s]
-            await self.check(source)
-            # except Exception as e:
-            #     await self.bot.report(s + " " + str(e))
+            try:
+                source: dict = SOURCES[s]
+                await self.check(source)
+            except Exception as e:
+                await self.bot.report(s + " " + str(e))
 
 
     @feeds.before_loop
