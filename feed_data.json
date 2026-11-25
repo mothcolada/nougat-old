@@ -43,9 +43,16 @@
             8489905,
             8490833,
             8496827,
-            8501053
+            8501053,
+            8507643,
+            8507806,
+            8508365,
+            8508374,
+            8508454,
+            8508494,
+            8508500
         ],
-        "etag": "W/\"d4aea76813dd011e445f07cb99463cc7\""
+        "etag": "W/\"bb84d2b7e1a57417f59b06bb6a1018a2\""
     },
     "announcements": {
         "name": "announcements",
@@ -398,7 +405,8 @@
             "https://status.cafe/users/nomnomnami/285139",
             "https://status.cafe/users/nomnomnami/285675",
             "https://status.cafe/users/nomnomnami/286159",
-            "https://status.cafe/users/nomnomnami/289142"
+            "https://status.cafe/users/nomnomnami/289142",
+            "https://status.cafe/users/nomnomnami/291649"
         ]
     },
     "neocities": {
@@ -764,7 +772,12 @@
             "https://forums.lonelywolftre.at/showthread.php?tid=68",
             "https://forums.lonelywolftre.at/showthread.php?tid=69",
             "https://forums.lonelywolftre.at/showthread.php?tid=71",
-            "https://forums.lonelywolftre.at/showthread.php?tid=70"
+            "https://forums.lonelywolftre.at/showthread.php?tid=70",
+            "https://forums.lonelywolftre.at/showthread.php?tid=72",
+            "https://forums.lonelywolftre.at/showthread.php?tid=73",
+            "https://forums.lonelywolftre.at/showthread.php?tid=74",
+            "https://forums.lonelywolftre.at/showthread.php?tid=75",
+            "https://forums.lonelywolftre.at/showthread.php?tid=76"
         ],
         "etag": ""
     },
@@ -813,7 +826,10 @@
             "https://wiki.lonelywolftre.at/mediawiki/index.php?title=File:Icon_Timber.png&diff=735&oldid=57",
             "https://wiki.lonelywolftre.at/mediawiki/index.php?title=User:Sato&diff=737&oldid=0",
             "https://wiki.lonelywolftre.at/wiki/Strudel",
-            "https://wiki.lonelywolftre.at/wiki/Treat"
+            "https://wiki.lonelywolftre.at/wiki/Treat",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=File:Cover_CS.png&diff=738&oldid=728",
+            "https://wiki.lonelywolftre.at/wiki/Template:Infobox/doc",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Treat&diff=739&oldid=734"
         ],
         "etag": ""
     }

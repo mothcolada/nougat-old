@@ -23,7 +23,7 @@ char_data = json.load(calendar_json)
 calendar_json.close()
 
 eastern_time = zoneinfo.ZoneInfo("America/New_York")  # Use zoneinfo so it tracks EST/EDT changes.
-midnight = datetime.time(hour=0, minute=0, second=0, tzinfo=eastern_time)
+midnight = datetime.time(hour=0, minute=5, second=40, tzinfo=eastern_time)
 
 
 class DailyCharacter(commands.Cog):

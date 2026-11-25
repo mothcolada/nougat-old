@@ -65,9 +65,9 @@ class Nougat(commands.Bot):
     async def on_ready(self):
 
         await self.log("good morning world")
-        # channel = self.get_channel(1521632401585864731)  # 1537117062416302150
+        # channel = self.get_channel(1521644859650474115)  # 1537117062416302150
         # if isinstance(channel, discord.TextChannel):
-        #     await channel.send("huh wha")
+        #     await channel.send("<@902801138435391509> on it boss")
         # await self.close()
         # exit()
 
