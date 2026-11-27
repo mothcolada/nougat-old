@@ -50,9 +50,21 @@
             8508374,
             8508454,
             8508494,
-            8508500
+            8508500,
+            8508631,
+            8508715,
+            8508726,
+            8508744,
+            8508751,
+            8508762,
+            8508765,
+            8508773,
+            8508776,
+            8509464,
+            8509720,
+            8509730
         ],
-        "etag": "W/\"569e09b30413f5f4af1081f087059a19\""
+        "etag": "W/\"d4720e27b96d95abbe8884b2dcb1d66c\""
     },
     "announcements": {
         "name": "announcements",
@@ -524,7 +536,8 @@
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3134874/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3138979/",
             "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143023/",
-            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143026/"
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3143026/",
+            "https://another-piece-of-candy.thecomicseries.com/comics/pl/3162161/"
         ]
     },
     "tcs": {
@@ -829,7 +842,12 @@
             "https://wiki.lonelywolftre.at/wiki/Treat",
             "https://wiki.lonelywolftre.at/mediawiki/index.php?title=File:Cover_CS.png&diff=738&oldid=728",
             "https://wiki.lonelywolftre.at/wiki/Template:Infobox/doc",
-            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Treat&diff=739&oldid=734"
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Treat&diff=739&oldid=734",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Mochi&diff=740&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:NCG&diff=741&oldid=699",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Mochi&diff=742&oldid=740",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Noncanon&diff=743&oldid=0",
+            "https://wiki.lonelywolftre.at/mediawiki/index.php?title=Template:Syrup2Nav&diff=744&oldid=0"
         ],
         "etag": ""
     }
